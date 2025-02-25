@@ -29,18 +29,18 @@
     };
 
     //slovnik
-
     $data=array(
         "Peter"=> 25,
         "Jana"=> 30,
         "Marek"=>20
     );
 
+    //prechod po slovníku
     foreach($data as $name =>$age){
         echo "$name má $age rokov <br>";
     };
 
-
+   //komentár
 
 
     ?>
